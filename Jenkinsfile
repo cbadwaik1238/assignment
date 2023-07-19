@@ -5,7 +5,7 @@ pipeline {
 		label "built-in"
 	}
 		stages {
-			stage ("23Q3 {
+			stage ("23Q3") {
 				steps {
 					sh "cd /mnt/assignment"
 					sh "git checkout 23Q3"
